@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertidor de Masa</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="png/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="png/icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="title">
+          <h2><b>Conversor de Masa</b></h2>
+        </div>
+        <form id="formulario">
+          <div class="row">
+            <label for="cantidad_a">Cantidad</label>
+            <input id="cantidad_a" class="input" type="number" />
+          </div>
+          <div class="row">
+            <label for="type_a">Tipo de Unidad</label>
+            <select class="input-b" id="type_a" data-id="a" name="tipounidad">
+              <option value="oz" selected="selected">Onza</option>
+              <option value="lb">Libra</option>
+              <option value="microg">Microgramo</option>
+              <option value="mg">Miligramo</option>
+              <option value="g">Gramo</option>
+              <option value="kg">Kilogramo</option>
+              <option value="tn">Tonelada</option>
+            </select>
+          </div>
+          <div class="colum-textcenter"></div>
+          <div class="row">
+            <label for="cantidad_b">Cantidad</label>
+            <input id="cantidad_b" class="input" type="number" />
+          </div>
+          <div class="row">
+            <label for="type_b">Tipo de Unidad</label>
+            <select
+              class="input-b"
+              id="type_b"
+              data-id="a"
+              name="tipounidad"
+              tabindex="1"
+            >
+              <option value="oz" selected="selected">Onza</option>
+              <option value="lb">Libra</option>
+              <option value="microg">Microgramo</option>
+              <option value="mg">Miligramo</option>
+              <option value="g">Gramo</option>
+              <option value="kg">Kilogramo</option>
+              <option value="tn">Tonelada</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
